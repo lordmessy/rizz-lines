@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: #f8d1b4;
+   
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.outer{
+    background-color: #e37b58;
+    width: 95%;
+    min-height: 95vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end;
+}
+.inner{
+    background-color: #fdf7eb;
+  width: 95%;
+  min-height: 100vh;
+    border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    position: relative;
+}
+.main_content{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 70%;
+    width: 40%;
+    /* background-color: red; */
+    border: 2px solid rgb(99, 98, 98);
+    border-radius: 10px;
+margin-bottom: 20px;
+position: relative;
+margin: 0 auto;
+/* background-color: yellow; */
+}
+.main_content .btn{
+position: absolute;
+bottom: 10px;
+display: flex;
+justify-content: center;
+/* background-color: red; */
+width: 100%;
+
+}
+
+.main_content .btn button{
+    margin: 10px;
+    padding: 10px;
+}
+
+.inner h1{
+    text-align: center;
+    font-size: 30px;
+}
+.inner h2{
+    text-align: center;
+    font-size: 16px;
+    color: #5b5e60;
+    font-weight: 200;
+    margin: 5px 0 5px 0;
+}
+.main_content ul {
+    
+        list-style-type: none; /* Removes bullet points */
+        padding: 0; /* Optional: Removes default padding */
+        margin: 0; /* Optional: Removes default margin */
+        text-align: center; 
+}
+
+.main_content ul li{
+    
+    background-color: #d9396f;
+height: auto;   
+width: 80%;
+padding: 10px; 
+border-radius: 10px;
+/* margin-top: 10px; */
+margin: 10px auto;
+color: white;
+}
+
+.menu {
+    /* background-color: red; */
+    position: relative;
+    left: -40%;
+    top: -3%;
+
+}
+.menu img{
+   
+    height: 100px;
+
+}
